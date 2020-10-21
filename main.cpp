@@ -14,7 +14,7 @@ int main(){
     double h = rng_max/10.0;    //範囲を探すときの分割数
     double error = 0.00000001; //収束判定のときの誤差
     double xmin=0, xmax=0;      //それぞれxの最小値，最大値を保存する変数
-    double x;                   //xminとxmaxの平均を保存する
+    double x=0;                   //xminとxmaxの平均を保存する
 
     for(int i=0; i<50; i++){    //50回動かす
         for(double n=rng_min; n<rng_max; n+=h){//分割した範囲を1つずつ見ていく
