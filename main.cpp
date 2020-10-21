@@ -5,7 +5,7 @@
 using namespace std;
 
 double func(double x){// f(x)=x+cos(x) の関数
-    return x + 10000*cos(x);
+    return x + cos(x);
 }
 
 int main(){
